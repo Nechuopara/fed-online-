@@ -124,9 +124,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 100;}
 }
 
 .food-cart_img{}
+.fish-burger_img{
+    padding: 6px 0 0 0;
+}
 
 .food-cart_info{
     padding: 22px 0 0 12px;
+}
+.kfc-double_info{
+    padding: 12px 0 8px 16px;
+}
+.fish-burger_info{
+    padding: 14px 0 0 14px;
 }
 .food-cart_title{
     margin-bottom: 8px;
