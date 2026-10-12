@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*::after{
+    -moz--box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+
+nav,footer,header,aside{
+    display: block;
+}
+
+html,body{
+    width: 100%;
+    background-color: plum;
+    font-size: 100%;
+    font-family: 'Inter', sans-serif;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 100;}
+
+
+.container{
+    max-width: 1960px;
+    height: 1307px;          /* 795 + 512 */
+    margin: 0 auto;
+    background-color: grey;
+    position: relative;
+}
+.dia{
+    max-width: 512px;
+    margin: auto 0;
+    background-color: #000000;
+    text-align: center;
+    padding: 0 0 109px 0;
+    position:  relative;
+    z-index: 0;
+}
+.dia img{
+    padding: 129px 0 32px 0;
+}
+.flag{
+    width: 80px;
+    height: 60px;
+    margin: 0 auto ;
+
+}
+.flag_blue{
+    background-color: #2137FC;
+    height: 50%;
+    border-radius: 6px 6px 0 0;
+}
+.flag_yellow{
+    background-color: #FFD84B;
+    height: 50%;
+    border-radius: 0 0 6px 6px;
+}
+.Speechify-Square{
+    max-width: 512px;
+    height: 512px;
+    margin: auto 0;
+    background-color: #FFD84B;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: -117px;
+    left: 441px;
+}
+
+.Speechify-Square_blue{}
+
+.glyph{
+    position: relative;
+    display: inline-block;
+    top: -125px;
+}
+.Speechify-Circle{
+    max-width: 512px;
+    margin: auto 0 0 0 ;
+    background-color: #FFFFFF;
+    border-top:  2px solid #2137FC ;
+    border-bottom:  2px solid #2137FC ;
+    text-align: center;
+    padding: 34px;
+    position: relative;
+    z-index: 2;
+    top: -230px;
+    left: 850px;
+}
+.circle{
+    background-color: #FFD84B;
+    width: 444px;
+    height: 444px;
+    border-radius: 50%;
+    margin: 0 auto ;
+    position: relative;
+}
+.glyph_small{
+    width: 358px;
+    height: 203px;
+    position: relative;
+    top: -15px;
+}
+
+
